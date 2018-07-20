@@ -1,0 +1,138 @@
+<ion-header class="bg-thime">
+    <ion-navbar>
+        <button ion-button menuToggle style="display: block !important;">
+            <ion-icon class="menu-icon"><img src="assets/imgs/ic_menu.png"></ion-icon>
+        </button>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+	<ion-searchbar (ionInput)="getItems($event)" placeholder="Search a Cite..." (click)="searchPage()"></ion-searchbar>
+    <ion-list>
+        <ion-item *ngFor="let item of items">
+        </ion-item>
+    </ion-list>
+</ion-header>
+
+
+<ion-content class="bg-light" overflow-scroll="true">
+    <ion-slides autoplay="5000" loop="true" speed="2000" pager>
+        <ion-slide *ngFor="let slide of slides">
+            <img [src]="slide.image" class="slide-image" />
+            <div class="banner-text">
+                <p [innerHTML]="slide.description"></p>
+                <small [innerHTML]="slide.smalltext"></small>
+                <h2 class="slide-title" [innerHTML]="slide.title"></h2>
+            </div>
+        </ion-slide>
+    </ion-slides>
+
+    <p style="color:#ffffff;"><b>Featured Menu</b></p>
+
+    <ion-row>
+        <ion-col>
+            <ion-card>
+                <ion-card-header>
+                    <div class="img-box">
+                        <img src="assets/imgs/anim6.jpg" (click)="findcitePage()">
+                    </div>
+                </ion-card-header>
+                <ion-card-content (click)="findcitePage()">
+                    <div style="height:5px;"></div>
+                    <h5 style="color:#ffffff;text-align:center;">Find a Cite</h5>
+                </ion-card-content>
+            </ion-card>
+        </ion-col>
+        <ion-col>
+            <ion-card>
+                <ion-card-header>
+                    <div class="img-box">
+                        <img src="assets/imgs/anim2.jpg" (click)="postcitePage()">
+                    </div>
+                </ion-card-header>
+                <ion-card-content (click)="postcitePage()">
+                    <div style="height:5px;"></div>
+                    <h5 style="color:#ffffff;text-align:center;">Post a Cite</h5>
+                </ion-card-content>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+
+<!--My CustomIzed addition on the home page, BY TCHINDA MOISE GASTON-->
+
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header>
+					<div class="img-box">
+						<img src="assets/imgs/anim5.jpg" (click)="searchcityPage()">
+					</div>
+				</ion-card-header>
+				<ion-card-content (click)="searchcityPage()">
+				   <div style="height:5px;"></div>
+				   <h5 style="color:#ffffff;text-align:center;">Search per City</h5>
+				</ion-card-content>
+			</ion-card>
+		</ion-col>
+		<ion-col>
+			<ion-card>
+				<ion-card-header>
+					<div class="img-box">
+						<img src="assets/imgs/anim7.jpg" (click)="searchuniversityPage()">
+					</div>
+				</ion-card-header>
+				<ion-card-content (click)="searchuniversityPage()">
+					<div style="height:5px;"></div>
+					<h5 style="color:#ffffff;text-align:center;">Search per University</h5>
+				</ion-card-content>
+			</ion-card>
+		</ion-col>
+	</ion-row>
+
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header>
+					<div class="img-box">
+						<img src="assets/imgs/anim1.jpg" (click)="searchlocalityPage()">
+					</div>
+				</ion-card-header>
+				<ion-card-content (click)="searchlocalityPage()">
+				   <div style="height:5px;"></div>
+				   <h5 style="color:#ffffff;text-align:center;">Search per Locality</h5>
+				</ion-card-content>
+			</ion-card>
+		</ion-col>
+		<ion-col>
+			<ion-card>
+				<ion-card-header>
+					<div class="img-box">
+						<img src="assets/imgs/anim4.jpg" (click)="joinPage()">
+					</div>
+				</ion-card-header>
+				<ion-card-content (click)="joinPage()">
+					<div style="height:5px;"></div>
+					<h5 style="color:#ffffff;text-align:center;">Join the Community</h5>
+				</ion-card-content>
+			</ion-card>
+		</ion-col>
+</ion-row>
+
+
+	<ion-row>
+			<ion-col>
+				<ion-card>
+					<ion-card-header>
+						<div class="img-box">
+							<img src="assets/imgs/anim3.jpg" (click)="accountPage()">
+						</div>
+					</ion-card-header>
+					<ion-card-content (click)="accountPage()">
+					   <div style="height:5px;"></div>
+					   <h5 style="color:#ffffff;text-align:center;">My account</h5>
+					</ion-card-content>
+				</ion-card>
+			</ion-col>
+			<ion-col>
+			</ion-col>
+	</ion-row>
+
+</ion-content>

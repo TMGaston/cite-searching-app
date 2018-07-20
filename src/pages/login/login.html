@@ -1,0 +1,52 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content  padding style="background:url(assets/imgs/background-duddle4.jpg) no-repeat center;background-size:cover;">
+
+  <img src="assets/imgs/mobile-icon-1.png" alt="" width="150" height="150" id="image"> 
+  <div style="height:10px;"></div>  
+    <ion-list>
+        <ion-item>
+            <ion-label floating>
+              Username
+            </ion-label>
+            <ion-input type="text" name="username"></ion-input>
+          </ion-item>
+            <ion-item>
+              <ion-label floating>
+                Password
+              </ion-label>
+              <ion-input type="password" name="password"></ion-input>
+              <ion-icon name="ios-eye-outline" class="text-light eye-icon"></ion-icon>
+            </ion-item>
+      
+          <div style="height:40px;"></div>
+          <button ion-button class="bg-thime btn-round btn-text" block (click)="HomePage()">
+            Log In
+          </button>
+      </ion-list>
+          <button ion-button clear class="btn-round btn-text" block (click)="ForgetpasswordPage()">
+              <u>Forgot Password?</u>
+            </button>
+          <p text-center>
+            <small>
+                By Registering ! agree to 
+                <span class="text-sky">
+                    Terms & conditon
+                </span>
+            </small>
+        </p>
+
+</ion-content>

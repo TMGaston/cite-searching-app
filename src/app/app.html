@@ -1,0 +1,86 @@
+<ion-menu [content]="content">
+    <ion-header>
+        <ion-toolbar class="menu-top">
+            <ion-list>
+                <ion-item >
+                    
+                        <ion-avatar item-start>
+                            <img src="assets/imgs/profile_pix2.png">
+                        </ion-avatar>
+                        <h2>find my room
+                            <ion-icon name="ios-arrow-forward"></ion-icon>
+                        </h2>
+                        <p>finds, locates & connects</p>
+                    
+                </ion-item>
+            </ion-list>
+        </ion-toolbar>
+        <!--<div class="menu-tabs" padding text-center>
+            <ion-row>
+                <ion-col col-4 menuClose (click)="my_accountPage()">
+                    <img src="assets/imgs/my_account.png">
+                    <p>My Account</p>
+                </ion-col>
+                <ion-col col-4 menuClose (click)="my_accountPage()">
+                    <img src="assets/imgs/my_order.png">
+                    <p>My Order</p>
+                </ion-col>
+                <ion-col col-4 menuClose (click)="my_accountPage()">
+                    <img src="assets/imgs/my_basket.png">
+                    <p>My Basket</p>
+                </ion-col>
+            </ion-row>
+        </div>-->
+    </ion-header>
+
+    <ion-content>
+        <div class="menu-title">
+            <ion-list>
+                <button ion-item menuClose (click)="homePage()">
+                    <img src="assets/imgs/ic_home.png ">
+                        <p style="color:#cc29b3;">Home</p>
+                </button>
+                <button ion-item>
+                    <img src="assets/imgs/ic_find.png ">
+                        <p style="color:#cc29b3;">Find a Room</p>
+                </button>
+
+                <div class="drop-down" >
+                    <button ion-item menuClose (click)="searchcityPage()">
+                    <img src="assets/imgs/ic_city.png ">
+                        <p style="color:#cc29b3;">Per City</p>
+                    </button>
+                    <button ion-item menuClose (click)="searchuniversityPage()">
+                    <img src="assets/imgs/ic_univ.png ">
+                        <p style="color:#cc29b3;">Per University</p>
+                    </button>
+                    <button ion-item menuClose (click)="searchlocalityPage()">
+                    <img src="assets/imgs/ic_locality.png ">
+                        <p style="color:#cc29b3;">Per Locality</p>
+                    </button> 
+                </div>
+
+                <button ion-item menuClose (click)="postroomPage()">
+                    <img src="assets/imgs/ic_post_room.png ">
+                        <p style="color:#cc29b3;">Post a Room</p>
+                </button>
+                <button ion-item menuClose (click)="aboutPage()">
+                    <img src="assets/imgs/ic_help.png ">
+                        <p style="color:#cc29b3;">About the App</p>
+                </button>
+                <button ion-item menuClose (click)="joinPage()">
+                    <img src="assets/imgs/ic_join.png ">
+                        <p style="color:#cc29b3;">Join the Community</p>
+                </button>
+                <button ion-item menuClose (click)="donatePage()">
+                    <img src="assets/imgs/ic_donate.png ">
+                        <p style="color:#cc29b3;">Donate</p>
+                </button>
+            </ion-list>
+        </div>
+    </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage " #content swipeBackEnabled="false "></ion-nav>

@@ -1,0 +1,8 @@
+{
+  "name": "mobimall",
+  "app_id": "354cd347",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
