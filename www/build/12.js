@@ -1,14 +1,14 @@
 webpackJsonp([12],{
 
-/***/ 288:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CityPageModule", function() { return CityPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CreateaccountPageModule", function() { return CreateaccountPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__city__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createaccount__ = __webpack_require__(108);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CityPageModule = (function () {
-    function CityPageModule() {
+var CreateaccountPageModule = (function () {
+    function CreateaccountPageModule() {
     }
-    CityPageModule = __decorate([
+    CreateaccountPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__city__["a" /* CityPage */],
+                __WEBPACK_IMPORTED_MODULE_2__createaccount__["a" /* CreateaccountPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__city__["a" /* CityPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__createaccount__["a" /* CreateaccountPage */]),
             ],
         })
-    ], CityPageModule);
-    return CityPageModule;
+    ], CreateaccountPageModule);
+    return CreateaccountPageModule;
 }());
 
-//# sourceMappingURL=city.module.js.map
+//# sourceMappingURL=createaccount.module.js.map
 
 /***/ })
 

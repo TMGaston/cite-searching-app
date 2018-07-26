@@ -27,13 +27,13 @@ export class HomePage {
       image: "assets/imgs/slider-1.jpg",
     },
     {
-      title: "Under XAF 699",
-      description: "Customer Support & Services",
-      smalltext: "Thank You WIngs Stores",
+      title: "Locate Accomodations & Hostels",
+      description: "Student, Hostel owner, hostel seeker",
+      smalltext: "Just login an search",
       image: "assets/imgs/slider-2.jpg",
     },
     {
-      title: "",
+      title: "Accomodation Made Easy!",
       description: "",
       smalltext: "",
       image: "assets/imgs/slider-3.jpg",

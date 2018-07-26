@@ -1,14 +1,14 @@
 webpackJsonp([2],{
 
-/***/ 298:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchlocalityPageModule", function() { return SearchlocalityPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchuniversityPageModule", function() { return SearchuniversityPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__searchlocality__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__searchuniversity__ = __webpack_require__(56);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SearchlocalityPageModule = (function () {
-    function SearchlocalityPageModule() {
+var SearchuniversityPageModule = (function () {
+    function SearchuniversityPageModule() {
     }
-    SearchlocalityPageModule = __decorate([
+    SearchuniversityPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__searchlocality__["a" /* SearchlocalityPage */],
+                __WEBPACK_IMPORTED_MODULE_2__searchuniversity__["a" /* SearchuniversityPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__searchlocality__["a" /* SearchlocalityPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__searchuniversity__["a" /* SearchuniversityPage */]),
             ],
         })
-    ], SearchlocalityPageModule);
-    return SearchlocalityPageModule;
+    ], SearchuniversityPageModule);
+    return SearchuniversityPageModule;
 }());
 
-//# sourceMappingURL=searchlocality.module.js.map
+//# sourceMappingURL=searchuniversity.module.js.map
 
 /***/ })
 

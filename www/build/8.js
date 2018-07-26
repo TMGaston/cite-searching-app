@@ -1,14 +1,14 @@
 webpackJsonp([8],{
 
-/***/ 292:
+/***/ 294:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JoinPageModule", function() { return JoinPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocalityPageModule", function() { return LocalityPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__join__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__locality__ = __webpack_require__(111);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var JoinPageModule = (function () {
-    function JoinPageModule() {
+var LocalityPageModule = (function () {
+    function LocalityPageModule() {
     }
-    JoinPageModule = __decorate([
+    LocalityPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__join__["a" /* JoinPage */],
+                __WEBPACK_IMPORTED_MODULE_2__locality__["a" /* LocalityPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__join__["a" /* JoinPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__locality__["a" /* LocalityPage */]),
             ],
         })
-    ], JoinPageModule);
-    return JoinPageModule;
+    ], LocalityPageModule);
+    return LocalityPageModule;
 }());
 
-//# sourceMappingURL=join.module.js.map
+//# sourceMappingURL=locality.module.js.map
 
 /***/ })
 

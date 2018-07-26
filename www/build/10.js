@@ -1,14 +1,14 @@
 webpackJsonp([10],{
 
-/***/ 290:
+/***/ 291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DonatePageModule", function() { return DonatePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FindcitePageModule", function() { return FindcitePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__donate__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__findcite__ = __webpack_require__(51);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var DonatePageModule = (function () {
-    function DonatePageModule() {
+var FindcitePageModule = (function () {
+    function FindcitePageModule() {
     }
-    DonatePageModule = __decorate([
+    FindcitePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__donate__["a" /* DonatePage */],
+                __WEBPACK_IMPORTED_MODULE_2__findcite__["a" /* FindcitePage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__donate__["a" /* DonatePage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__findcite__["a" /* FindcitePage */]),
             ],
         })
-    ], DonatePageModule);
-    return DonatePageModule;
+    ], FindcitePageModule);
+    return FindcitePageModule;
 }());
 
-//# sourceMappingURL=donate.module.js.map
+//# sourceMappingURL=findcite.module.js.map
 
 /***/ })
 

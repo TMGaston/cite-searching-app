@@ -1,4 +1,4 @@
-webpackJsonp([15],{
+webpackJsonp([16],{
 
 /***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -178,51 +178,6 @@ var DonatePage = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LocalityPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the LocalityPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var LocalityPage = (function () {
-    function LocalityPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    LocalityPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LocalityPage');
-    };
-    LocalityPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-locality',template:/*ion-inline-start:"C:\Users\THE KINGDOM\cite_searching_app\src\pages\locality\locality.html"*/'<!--\n  Generated template for the LocalityPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Locality</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\THE KINGDOM\cite_searching_app\src\pages\locality\locality.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-    ], LocalityPage);
-    return LocalityPage;
-}());
-
-//# sourceMappingURL=locality.js.map
-
-/***/ }),
-
-/***/ 111:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
@@ -261,6 +216,51 @@ var LoginPage = (function () {
 }());
 
 //# sourceMappingURL=login.js.map
+
+/***/ }),
+
+/***/ 111:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LocalityPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the LocalityPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var LocalityPage = (function () {
+    function LocalityPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    LocalityPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LocalityPage');
+    };
+    LocalityPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-locality',template:/*ion-inline-start:"C:\Users\THE KINGDOM\cite_searching_app\src\pages\locality\locality.html"*/'<!--\n  Generated template for the LocalityPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Locality</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\THE KINGDOM\cite_searching_app\src\pages\locality\locality.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], LocalityPage);
+    return LocalityPage;
+}());
+
+//# sourceMappingURL=locality.js.map
 
 /***/ }),
 
@@ -377,62 +377,66 @@ webpackEmptyAsyncContext.id = 124;
 var map = {
 	"../pages/about/about.module": [
 		286,
-		14
+		15
 	],
 	"../pages/account/account.module": [
 		287,
-		13
+		14
 	],
 	"../pages/city/city.module": [
 		288,
-		12
+		13
 	],
 	"../pages/createaccount/createaccount.module": [
 		289,
-		11
+		12
 	],
 	"../pages/donate/donate.module": [
 		290,
-		10
+		11
 	],
 	"../pages/findcite/findcite.module": [
 		291,
-		9
+		10
 	],
 	"../pages/join/join.module": [
 		292,
-		8
+		9
 	],
 	"../pages/locality/locality.module": [
+		294,
+		8
+	],
+	"../pages/login/login.module": [
 		293,
 		7
 	],
-	"../pages/login/login.module": [
-		294,
-		6
-	],
 	"../pages/postcite/postcite.module": [
 		295,
-		5
+		6
 	],
 	"../pages/postroom/postroom.module": [
 		296,
-		4
+		5
 	],
 	"../pages/searchcity/searchcity.module": [
 		297,
-		3
+		4
 	],
 	"../pages/searchlocality/searchlocality.module": [
 		298,
-		2
+		3
 	],
 	"../pages/searchuniversity/searchuniversity.module": [
 		299,
-		1
+		2
 	],
 	"../pages/university/university.module": [
 		300,
+		1
+	],
+	"../pages/welcome/welcome.module": [
+		301,
 		0
 	]
 };
@@ -496,13 +500,13 @@ var HomePage = (function () {
                 image: "assets/imgs/slider-1.jpg",
             },
             {
-                title: "Under XAF 699",
-                description: "Customer Support & Services",
-                smalltext: "Thank You WIngs Stores",
+                title: "Locate Accomodations & Hostels",
+                description: "Student, Hostel owner, hostel seeker",
+                smalltext: "Just login an search",
                 image: "assets/imgs/slider-2.jpg",
             },
             {
-                title: "",
+                title: "Accomodation Made Easy!",
                 description: "",
                 smalltext: "",
                 image: "assets/imgs/slider-3.jpg",
@@ -574,8 +578,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_city_city__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_createaccount_createaccount__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_findcite_findcite__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_locality_locality__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_locality_locality__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_postcite_postcite__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_postroom_postroom__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_searchcity_searchcity__ = __webpack_require__(54);
@@ -647,14 +651,15 @@ var AppModule = (function () {
                         { loadChildren: '../pages/donate/donate.module#DonatePageModule', name: 'DonatePage', segment: 'donate', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/findcite/findcite.module#FindcitePageModule', name: 'FindcitePage', segment: 'findcite', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/join/join.module#JoinPageModule', name: 'JoinPage', segment: 'join', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/locality/locality.module#LocalityPageModule', name: 'LocalityPage', segment: 'locality', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/locality/locality.module#LocalityPageModule', name: 'LocalityPage', segment: 'locality', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/postcite/postcite.module#PostcitePageModule', name: 'PostcitePage', segment: 'postcite', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/postroom/postroom.module#PostroomPageModule', name: 'PostroomPage', segment: 'postroom', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/searchcity/searchcity.module#SearchcityPageModule', name: 'SearchcityPage', segment: 'searchcity', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/searchlocality/searchlocality.module#SearchlocalityPageModule', name: 'SearchlocalityPage', segment: 'searchlocality', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/searchuniversity/searchuniversity.module#SearchuniversityPageModule', name: 'SearchuniversityPage', segment: 'searchuniversity', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/university/university.module#UniversityPageModule', name: 'UniversityPage', segment: 'university', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/university/university.module#UniversityPageModule', name: 'UniversityPage', segment: 'university', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/welcome/welcome.module#WelcomePageModule', name: 'WelcomePage', segment: 'welcome', priority: 'low', defaultHistory: [] }
                     ]
                 }),
             ],
@@ -709,8 +714,8 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_city_city__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_createaccount_createaccount__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_findcite_findcite__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_locality_locality__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_locality_locality__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_postcite_postcite__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_postroom_postroom__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_searchcity_searchcity__ = __webpack_require__(54);
@@ -907,7 +912,7 @@ var FindcitePage = (function () {
     };
     FindcitePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-findcite',template:/*ion-inline-start:"C:\Users\THE KINGDOM\cite_searching_app\src\pages\findcite\findcite.html"*/'\n<ion-header>\n\n  <ion-navbar>\n	  <button ion-button menuToggle>\n			  <ion-icon class="menu-icon"><img src="assets/imgs/ic_menu.png"></ion-icon>\n	  </button>\n    <ion-title>Find a Cite</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="bg-light">\n\n  <ion-card>\n      <ion-card-content>\n          <ion-row>\n              <ion-col col-3>\n                  <div class="img-box">\n                      <img src="assets/imgs/dovv.jpg" (click)="ViewstorePage()">\n                  </div>\n              </ion-col>\n              <ion-col col-9>\n                  <h4 (click)="ViewstorePage()" >Joebecca Plaza</h4>\n                      <p style="font-size:10px;">Modern rooms 4 stars</p>\n                      <p style="font-size:10px;">Mile 7 Nkwen</p>\n                      <p style="font-size:10px;" class=text-light>Bamenda, CM</p>\n                      <!--<div style="display: flex;">\n                          <div class="price text-light mr-5">\n                              <img src="assets/imgs/xaf-light.png" class="rupee-icon">500\n                          </div>\n                          <div class="price text-sky">\n                              <img src="assets/imgs/xaf-sky.png" class="rupee-icon">300\n                          </div>\n                      </div>--> \n                  <div class="card-btn" float-right padding-top>\n                      <small class="text-sky" (click)="ViewstorePage()">View rooms</small>\n                      <small class="text-white bg-thime" (click)="StoreproductsPage()">Call care taker</small>\n                  </div>\n              </ion-col>\n          </ion-row>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n        <ion-card-content>\n            <ion-row>\n                <ion-col col-3>\n                    <div class="img-box">\n                        <img src="assets/imgs/santa-lucia.jpg" (click)="ViewstorePage()">\n                    </div>\n                </ion-col>\n                <ion-col col-9>\n                    <h4 (click)="ViewstorePage()">White House Plaza</h4>\n                    <!--<div class="rate">-->\n                        <p style="font-size:10px;">Modern rooms 3 stars</p>\n                        <p style="font-size:10px;">Mile 7 Nkwen</p>\n                        <p style="font-size:10px;" class=text-light>Bamenda, CM</p>\n                        <!--<div style="display: flex;">\n                            <div class="price text-light mr-5">\n                                <img src="assets/imgs/xaf-light.png" class="rupee-icon">500\n                            </div>\n                            <div class="price text-sky">\n                                <img src="assets/imgs/xaf-sky.png" class="rupee-icon">300\n                            </div>\n                        </div>\n                    </div>-->\n                    <div class="card-btn" float-right padding-top>\n                        <small class="text-sky" (click)="ViewstorePage()">View rooms</small>\n                        <small class="text-white bg-thime" (click)="StoreproductsPage()">Call care taker</small>\n                    </div>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n            <ion-card-content>\n                <ion-row>\n                    <ion-col col-3>\n                        <div class="img-box">\n                            <img src="assets/imgs/casino.jpg" (click)="ViewstorePage()">\n                        </div>\n                    </ion-col>\n                    <ion-col col-9>\n                        <h4 (click)="ViewstorePage()">Tatsa Plaza</h4>\n                        <!--<div class="rate">-->\n                            <p style="font-size:10px;">Electronics</p>\n                            <p style="font-size:10px;">Modern rooms 4 stars</p>\n                            <p style="font-size:10px;" class=text-light>Bamenda, CM</p>\n                            <!--<div style="display: flex;">\n                                <div class="price text-light mr-5">\n                                    <img src="assets/imgs/xaf-light.png" class="rupee-icon">500\n                                </div>\n                                <div class="price text-sky">\n                                    <img src="assets/imgs/xaf-sky.png" class="rupee-icon">300\n                                </div>\n                            </div>\n                        </div>-->\n                        <div class="card-btn" float-right padding-top>\n                            <small class="text-sky" (click)="ViewstorePage()">View rooms</small>\n                            <small class="text-white bg-thime" (click)="StoreproductsPage()">Call care taker</small>\n                        </div>\n                    </ion-col>\n                </ion-row>\n            </ion-card-content>\n        </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\THE KINGDOM\cite_searching_app\src\pages\findcite\findcite.html"*/,
+            selector: 'page-findcite',template:/*ion-inline-start:"C:\Users\THE KINGDOM\cite_searching_app\src\pages\findcite\findcite.html"*/'\n<ion-header>\n\n  <ion-navbar>\n	  <button ion-button menuToggle>\n			  <ion-icon class="menu-icon"><img src="assets/imgs/ic_menu.png"></ion-icon>\n	  </button>\n    <ion-title>Find a Cite</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="bg-light">\n\n  <ion-card>\n      <ion-card-content>\n          <ion-row>\n              <ion-col col-3>\n                  <div class="img-box">\n                      <img src="assets/imgs/dovv.jpg" (click)="ViewstorePage()">\n                  </div>\n              </ion-col>\n              <ion-col col-9>\n                  <h4 (click)="ViewstorePage()" >Joebecca Plaza</h4>\n                      <p style="font-size:10px;">Modern rooms 4 stars</p>\n                      <p style="font-size:10px;">Mile 7 Nkwen</p>\n                      <p style="font-size:10px;" class=text-light>Bamenda, CM</p>\n                      <!--<div style="display: flex;">\n                          <div class="price text-light mr-5">\n                              <img src="assets/imgs/xaf-light.png" class="rupee-icon">500\n                          </div>\n                          <div class="price text-sky">\n                              <img src="assets/imgs/xaf-sky.png" class="rupee-icon">300\n                          </div>\n                      </div>--> \n                  <div class="card-btn" float-right padding-top>\n                      <small class="text-sky" (click)="ViewstorePage()">View rooms</small>\n                      <small class="text-white bg-thime" (click)="StoreproductsPage()">Call care taker</small>\n                  </div>\n              </ion-col>\n          </ion-row>\n      </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n        <ion-card-content>\n            <ion-row>\n                <ion-col col-3>\n                    <div class="img-box">\n                        <img src="assets/imgs/santa-lucia.jpg" (click)="ViewstorePage()">\n                    </div>\n                </ion-col>\n                <ion-col col-9>\n                    <h4 (click)="ViewstorePage()">Blue House Plaza</h4>\n                    <!--<div class="rate">-->\n                        <p style="font-size:10px;">Modern rooms 3 stars</p>\n                        <p style="font-size:10px;">Mile 7 Nkwen</p>\n                        <p style="font-size:10px;" class=text-light>Bamenda, CM</p>\n                        <!--<div style="display: flex;">\n                            <div class="price text-light mr-5">\n                                <img src="assets/imgs/xaf-light.png" class="rupee-icon">500\n                            </div>\n                            <div class="price text-sky">\n                                <img src="assets/imgs/xaf-sky.png" class="rupee-icon">300\n                            </div>\n                        </div>\n                    </div>-->\n                    <div class="card-btn" float-right padding-top>\n                        <small class="text-sky" (click)="ViewstorePage()">View rooms</small>\n                        <small class="text-white bg-thime" (click)="StoreproductsPage()">Call care taker</small>\n                    </div>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n            <ion-card-content>\n                <ion-row>\n                    <ion-col col-3>\n                        <div class="img-box">\n                            <img src="assets/imgs/casino.jpg" (click)="ViewstorePage()">\n                        </div>\n                    </ion-col>\n                    <ion-col col-9>\n                        <h4 (click)="ViewstorePage()">Brooklyn Plaza</h4>\n                        <!--<div class="rate">-->\n                            <p style="font-size:10px;">Mile 7 Nkwen</p>\n                            <p style="font-size:10px;">Modern rooms 4 stars</p>\n                            <p style="font-size:10px;" class=text-light>Bamenda, CM</p>\n                            <!--<div style="display: flex;">\n                                <div class="price text-light mr-5">\n                                    <img src="assets/imgs/xaf-light.png" class="rupee-icon">500\n                                </div>\n                                <div class="price text-sky">\n                                    <img src="assets/imgs/xaf-sky.png" class="rupee-icon">300\n                                </div>\n                            </div>\n                        </div>-->\n                        <div class="card-btn" float-right padding-top>\n                            <small class="text-sky" (click)="ViewstorePage()">View rooms</small>\n                            <small class="text-white bg-thime" (click)="StoreproductsPage()">Call care taker</small>\n                        </div>\n                    </ion-col>\n                </ion-row>\n            </ion-card-content>\n        </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\THE KINGDOM\cite_searching_app\src\pages\findcite\findcite.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], FindcitePage);
